@@ -1,0 +1,13 @@
+
+---
+
+# ⭐ Optional Extra Files (Recommended)
+
+### `.gitignore`
+
+```txt
+venv/
+__pycache__/
+models/*.pkl
+models/*.cbm
+.env
