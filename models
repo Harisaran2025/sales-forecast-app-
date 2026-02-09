@@ -1,1 +1,6 @@
+from catboost import CatBoostRegressor
+import joblib
+
+model.save_model("models/catboost_model.cbm")
+joblib.dump(scaler, "models/scaler.pkl")
 
